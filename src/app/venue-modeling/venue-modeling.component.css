@@ -1,0 +1,119 @@
+
+@media print{
+	.print_img, .shapes-group{
+		display:none;
+	}	
+}
+* { box-sizing: border-box; }
+
+
+body {
+	background-color: #505250;
+	margin: 0px;
+	overflow: hidden;
+	font-family: sans-serif;
+	}
+	
+.logoLabel{
+	color:#f2f2f2;
+	font-family: monospace;
+	font-weight: bolder;
+	font-style: normal;
+	font-size: x-large;
+	padding: 0px 0px 0px 12px;
+}
+
+.main_scene{
+	display:flex;
+	padding-left: 10px;
+}
+
+.shapes-group{
+	padding-left:20px;
+	color: #f2f2f2;
+}
+.shapes-group button{
+	padding-left:0px;
+	width:150px;
+}
+.input__shapes{
+	width:27px;
+	margin-right:5px;
+}
+.labels__shapes{
+	font-size:12px;
+}
+
+label { margin-right: 10px; }
+.images_shape{
+	width:53px;
+	height:40px;
+	padding:5px;
+}
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.header_section{
+	display: flex;
+    justify-content: space-between;
+	padding-top:20px;
+}
+.print_img{
+	width:45px;
+	margin-right:20px;
+	cursor: pointer;
+}
+.shapes-group{
+	padding-left:20px;
+}
+.shapes-group button{
+	padding-left:7px;
+}
+.input__shapes{
+	width:27px;
+	margin-right:5px;
+}
+.labels__shapes{
+	font-size:12px;
+}
+
+label { margin-right: 10px; }
+.images_shape{
+	width:53px;
+	height:40px;
+	padding:5px;
+}
+
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+/* .map_section{ */
+	/* display:flex; */
+	
+/* } */
+.gen_btn{
+	margin-left:20px;
+}
+ .thermalHeatMap{ 
+	 position: relative; 
+	 height: 200px;
+	 width: 85%;
+	 margin-bottom:100px;
+ } 
+ .btn .caret{
+	float: right;
+    margin-top: 6px;
+ }
